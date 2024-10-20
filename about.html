@@ -29,9 +29,43 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles/portfolio.css" />
-    <title>About me</title>
+    <meta
+      name="description"
+      content="About Alice, front-end developer based in Romania"
+    />
+    <title>About - Alice Petcu</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="Alice Logo"
+          />
+          <img
+            src="images/small-logo.png"
+            class="logo d-block d-md-none"
+            alt="Alice Logo"
+          />
+        </a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage">Home</a>
+          </li>
+          <li class="active">
+            <a href="/about.html" title="About Alice">About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="Alice's work">Work</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact Alice">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="row">
         <div class="col-lg-6">
@@ -42,15 +76,70 @@
               For anyone who wants to start learning code, this workshop is very
               interesting. You will be challenged with different exercises, and
               everything is well explained, homework and deadlines are good for
-              keep focus.
+              keeping you focused.
             </p>
-            <a href="#" class="btn btn-branding">See my projects</a>
+            <a href="/work.html" class="btn btn-branding">See my projects</a>
           </div>
         </div>
         <div class="col-lg-6">
-          <img src="images/Alice.png" alt="" class="img-fluid" />
+          <img src="images/Alice.png" alt="Alice" class="img-fluid" />
         </div>
       </div>
     </div>
+    <footer class="container">
+      <div
+        class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+      >
+        <div>
+          <h3>Work Inquiry</h3>
+          <p class="text-muted">Let's work together</p>
+        </div>
+        <div>
+          <a
+            href="/contact.html"
+            class="btn btn-branding mt-3"
+            title="Contact Alice"
+            >Contact me</a
+          >
+        </div>
+      </div>
+      <div class="d-flex justify-content-center mb-5">
+        <a
+          href="mailto:manuscarlet@yahoo.com"
+          class="email-link"
+          title="Email Alice"
+          >Manuscarlet@yahoo.com</a
+        >
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a
+          href="https://www.instagram.com/alice.manu92"
+          target="_blank"
+          title="Instagram Profile"
+        >
+          <i class="fab fa-instagram"></i
+        ></a>
+        <a
+          href="https://www.github.com/alice131419"
+          target="_blank"
+          title="GitHub Profile"
+        >
+          <i class="fab fa-github"></i
+        ></a>
+        <a
+          href="https://www.facebook.com/alice.scarlet.58"
+          target="_blank"
+          title="facebook Profile"
+        >
+          <i class="fab fa-facebook"></i>
+        </a>
+      </div>
+      <p class="text-center mt-4">
+        This project was coded by Alice Petcu, and it is
+        <a href="https://github.com/alice131419" target="_black"
+          >open sourced</a
+        >
+      </p>
+    </footer>
   </body>
 </html>

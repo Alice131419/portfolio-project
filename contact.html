@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
- <head></head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
@@ -28,23 +28,114 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins&display=swap"
       rel="stylesheet"
     />
+
     <link rel="stylesheet" href="styles/portfolio.css" />
-    <title>Contact me</title>
+    <meta
+      name="description"
+      content="Contact Alice, front-end developer based in Romania"
+    />
+    <title>Contact Alice</title>
   </head>
   <body>
-   <div class="content-container container">
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="Alice Logo"
+          />
+          <img
+            src="images/small-logo.png"
+            class="logo d-block d-md-none"
+            alt="Alice Logo"
+          />
+        </a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage">Home</a>
+          </li>
+          <li>
+            <a href="/about.html" title="About Alice">About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="Alice's work">Work</a>
+          </li>
+          <li class="active">
+            <a href="/contact.html" title="Contact Alice">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="content-container container">
       <div class="content">
         <h1 class="mb-5">Let`s get in touch</h1>
         <h3>Email</h3>
         <p>
-            <a href="mailto:manuscarlet@yahoo.com">manuscarlet@yahoo.com</a></p>
+          <a href="mailto:manuscarlet@yahoo.com">manuscarlet@yahoo.com</a>
+        </p>
         <h3>Instagram</h3>
         <p>
-            <a href="https://www.instagram.com/alice.manu92" target="_blank">
-                @alice.manu92
-            </a>
+          <a href="https://www.instagram.com/alice.manu92" target="_blank">
+            @alice.manu92
+          </a>
         </p>
       </div>
     </div>
+    <footer class="container">
+      <div
+        class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+      >
+        <div>
+          <h3>Work Inquiry</h3>
+          <p class="text-muted">Let's work together</p>
+        </div>
+        <div>
+          <a
+            href="/contact.html"
+            class="btn btn-branding mt-3"
+            title="Contact Alice"
+            >Contact me</a
+          >
+        </div>
+      </div>
+      <div class="d-flex justify-content-center mb-5">
+        <a
+          href="mailto:manuscarlet@yahoo.com"
+          class="email-link"
+          title="Email Alice"
+          >Manuscarlet@yahoo.com</a
+        >
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a
+          href="https://www.instagram.com/alice.manu92"
+          target="_blank"
+          title="Instagram Profile"
+        >
+          <i class="fab fa-instagram"></i
+        ></a>
+        <a
+          href="https://www.github.com/alice131419"
+          target="_blank"
+          title="GitHub Profile"
+        >
+          <i class="fab fa-github"></i
+        ></a>
+        <a
+          href="https://www.facebook.com/alice.scarlet.58"
+          target="_blank"
+          title="facebook Profile"
+        >
+          <i class="fab fa-facebook"></i>
+        </a>
+      </div>
+      <p class="text-center mt-4">
+        This project was coded by Alice Petcu, and it is
+        <a href="https://github.com/alice131419" target="_black"
+          >open sourced</a
+        >
+      </p>
+    </footer>
   </body>
 </html>
